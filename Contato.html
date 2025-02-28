@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-danger-subtle p-2 d-flex">
+  <div class="container-fluid">
+      <img class="col-1" src="https://i0.wp.com/myschoolportal.net/blog/wp-content/uploads/2024/12/Monster-High-Logo.png?resize=350%2C200&ssl=1" alt="">
+      <!--LINKS:-->
+      <div class="navbar navbar-expand-lg bg-danger-subtle ">
+        <ul class="navbar-nav me-auto d-flex m-1">
+          <li><a class="nav-link text-black" href="http://localhost:63342/front-end-aula02/Home.html?_ijt=d7v2stctaq16hpb43ei9onducq">Home</a></li>
+          <li ><a class="nav-link text-black" href="http://localhost:63342/front-end-aula02/Sobre.html?_ijt=d7v2stctaq16hpb43ei9onducq">Sobre</a></li>
+          <li><a class="nav-link text-black" href="http://localhost:63342/front-end-aula02/Servicos.html?_ijt=d7v2stctaq16hpb43ei9onducq">Serviços</a></li>
+          <li><a class="nav-link text-black" href="http://localhost:63342/front-end-aula02/Time.html?_ijt=d7v2stctaq16hpb43ei9onducq">Time</a></li>
+          <li><a class="nav-link text-black" href="http://localhost:63342/front-end-aula02/Contato.html?_ijt=d7v2stctaq16hpb43ei9onducq">Contato</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="d-flex justify-content-center align-items-center p-1">
+  <div class=" col-6 fs-5 p-2">
+        <p class="h1">Form Monster High</p>
+        <p>Hello kids, I'm Cleo de Nile, a student at Monster High. I will show you the form!</p>
+    </div>
+    <div class="col-6">
+        <img class="col-3 rounded mx-auto d-block" src="https://i.pinimg.com/originals/b4/7b/4f/b47b4f5a4bfbbccac852007c35385fee.png" alt="">
+    </div>
+</div>
+
+<div class="container">
+  <form class="row g-3 needs-validation " novalidate>
+    <div class="col-md-4">
+      <label for="validationCustom01" class="form-label">Primeiro nome:</label>
+      <input type="text" class="form-control" id="validationCustom01" value="" required>
+      <div class="valid-feedback">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationCustom02" class="form-label">Sobrenome:</label>
+      <input type="text" class="form-control" id="validationCustom02" value="" required>
+      <div class="valid-feedback">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationCustomUsername" class="form-label">Nome de usuário</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend">@</span>
+        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationCustom03" class="form-label">Cidade</label>
+      <input type="text" class="form-control" id="validationCustom03" required>
+      <div class="invalid-feedback">
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationCustom04" class="form-label">Estado civil</label>
+      <select class="form-select" id="validationCustom04" required>
+        <option selected disabled value="">Solteiro</option>
+        <option>Casado</option>
+      </select>
+      <div class="invalid-feedback">
+        Selecione um estado válido.
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationCustom05" class="form-label">CEP</label>
+      <input type="text" class="form-control" id="validationCustom05" required>
+      <div class="invalid-feedback">
+        Forneça um CEP válido.
+      </div>
+    </div>
+    <div class="col-12">
+    </div>
+  </form>
+
+  <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Endereço de email</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text"></div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Senha</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+    </div>
+  </form>
+
+  <select class="form-select form-select-sm my-2" aria-label="Small select example">
+    <option selected>Escolha o seu monstro</option>
+    <option value="1">Abominável Homem das Neves</option>
+    <option value="2">Lobisomem</option>
+    <option value="3">Múmia</option>
+    <option value="3">Vampiro</option>
+    <option value="3">Frankenstein</option>
+    <option value="3">Zumbi</option>
+    <option value="3">Monstro Marinho</option>
+
+  </select>
+
+  <div class="mb-3 mt-5">
+    <label for="exampleFormControlTextarea1" class="form-label">Descrição do seu monstrinho</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+
+
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+      <label class="form-check-label" for="invalidCheck3">
+        Concordar com os termos e condições
+      </label>
+      <div id="invalidCheck3Feedback" class="invalid-feedback">
+        Você deve concordar antes de enviar.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-danger" type="submit">
+  Enviar formulário</button>
+  </div>
+
+</div>
+
+<footer class="bg-danger-subtle text-black-50 p-3 mt-5 ">
+    <p class="text-center">&copy; 2025 Meu Site. Todos os direitos reservados</p>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+<!--Nao pode ter nada dps do script-->
+</body>
+</html>
